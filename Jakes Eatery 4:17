@@ -1,0 +1,101 @@
+.logo{
+    background:white;
+    height: 230px;
+    background-image: url("../images/jakes-logo.png");
+    background-repeat: no-repeat;
+    background-position: Center;
+}
+.nav{
+    display: flex;
+    background-color: black;
+    padding: 20px;
+}
+.left, .center, .right{
+    height: 50px;
+    Display: Flex;
+    Justify-content: Center;
+    Align-items: center;
+}
+.left, .right{
+    Width: 25%;
+}
+.center{
+    Width: 50%
+}
+.center a{
+    Color: White; 
+    Padding: 10px;
+    Font-Size: 18px; 
+    Text-decoration: None; 
+    Font-Family: Arial
+}
+.class button{
+   Color: Black; 
+   Font-Size: 16px; 
+   Padding: 15px; 
+   Width: 50%;
+}
+.right button{
+    background-color: yellow;
+}
+.left button{
+    background-color: skyblue;
+}
+/* Column styles */
+.column flex{
+    display: flex;
+    Height: 1200px;
+    Width: 800px; 
+    Flex-direction: Column;
+    Margin: 0 auto; 
+}
+.meal1, .meal2, .meal3{
+    Height: 100%;
+    Width: 100%;
+    Display: flex;
+    Align-items: Flex-end;
+    Margin-bottom: 20px; 
+    Background-Repeat: No-Repeat;
+    Background-Position: Center;
+}
+.meal1{
+    Margin-top: 20px; 
+    Background-image:url("../images/steak.png");
+}
+.meal2{
+    background-image: url("../images/soup.png");
+}
+.meal3{
+    Background-image: url("../images/cheesecake.png");
+}
+.text{
+    background: rgb (0,0,0,0,7);
+    Width: 100%;
+    Padding: 20px 40px;
+    Color: White;
+}
+.text p{
+    Color: rgba(255,255,255,0.7);
+    Font-family: Arial, Helvetica, sans-serif; 
+}
+.text h1{
+    Font-Family: Georgia, 'Times New Roman', Times, serif; 
+}
+/* Footer Styles */
+.footer{
+    text-align: Center;
+    background-color: black;
+    Padding: 20px 40px;
+    Display: Flex;
+    align-content: space-around;
+}
+
+.fb{
+    Color: blue;
+}
+.ig{
+    color: red;
+}
+.tw{
+    color: yellow;
+}
